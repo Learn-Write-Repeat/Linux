@@ -1,0 +1,58 @@
+Projects are listed here as per the given sequence in "README.md"...........
+Project-01
+         
+         Create a Directory named MyDir and create three .txt files inside MyDir ,
+         Create another file named MyFile outside MyDir ,
+         Now combine the content of all three .txt files in one 
+         copy that combined content into Myfile .
+         delete all .txt files inside Mydir and move Myfile inside MyDir.
+        
+Project-02
+        User <root/youruser> has created a file “credentials” with below permission which must
+        not be opened by anyone except <root/youruser> and another user "hemant" , how can this
+         be done? Attach all the screenshots of commands and it’s output that you will use.like-
+         -rw-r----- 1 hemant.kumar 1138207179    0B Mar 30 17:21 credentials
+         
+Project-03
+         Write a shell script to find a file/directory by its name and delete it if it is created today or on
+         a specific date. Make sure everyone can execute this script
+         
+Project-04
+         Write a script that accepts a new hostname from the user as a command-line argument, and sets the machine hostname permanently.
+         
+Project-05
+         Secure the /etc/passwd file so that no one(including root) can delete this but it should be available for updating the new users entry."
+         
+ Project-06
+        Configure syslog rotation (/var/log/syslog file) so that it is compressed daily and all the logs generated in a week are stored in a directory named
+         /var/log/syslog.old/. The system must send an email to root user each time a rotation is made.
+
+         
+ Project-07      
+        Write a shell script to read /etc/passwd file and pick any 4 content of it and print the value
+        of fields what it is called. Make sure everyone can execute this script. Post this script to above
+        mentioned git repo
+          Example: cat /etc/passwd has the below output for root user
+          root:*:0:0:System Administrator:/var/root:/bin/sh
+          Then you should print it like username = root
+          password = *
+          userid = 0
+          groupid = 0
+          userinfo = System Administrator
+          home = /var/root
+          shell = /bin/sh
+         
+Project-08
+          Create your own command “emp” that can be executed by any user which will print your
+          complete name and EmpID. Share the screenshot of the command output with steps you will
+          perform.
+          
+Project-09
+
+         In the Bash script, write a program that gets the raw output logs that exist at URL https://coderbyte.com/api/challenges/logs/web-logs-raw. The logs there are a sample of real web server logs. Each line begins with a date, e.g. Apr 10 11:17:35. Your program should do the following:
+         Loop through each log item, and find the lines that contain the string coderbyte heroku/router. For each of those, echo the request_id value to a new line, and if the fwd key has the value of MASKED, then add a [M] to the end of the line with a space before it. Your final output should look something like the following:
+
+         b19a87a1-1bbb-000-00000
+         b19a87a1-1bbb-000-11111
+         8bb2413c-3c67-4180-22222 [M]
+         10f93da3-2753-48a3-33333 [M]
