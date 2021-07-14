@@ -1,4 +1,13 @@
-# Linux
+<p align="center">
+    <a href="https://github.com/geekymeeky">
+        <img src="https://github.com/geekymeeky/chitchat/blob/master/images/logo.png" width="20%">
+    </a>
+</p>
+
+<h1 align="center"> 
+    Chitchat
+</h1>
+<div align="center">
 # Contribution Program in Linux under DevIncept ----------
 #Note- Projects are in separate file named "Projects"
 
