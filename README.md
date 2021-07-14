@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://github.com/geekymeeky">
-        <img src="https://github.com/Nikolatesla2001/Linux/blob/main/Devincept.gif" width="20%">
+        <img src="https://github.com/Nikolatesla2001/Linux/blob/main/Devincept.gif">
     </a>
 </p>
 # Contribution Program in Linux under DevIncept ----------
