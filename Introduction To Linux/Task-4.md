@@ -1,5 +1,19 @@
 # Environment Variables
 
+## Why we need Environment Variables?
+
+A running program can access the values of environment variables for configuration purposes. 
+Shell scripts and batch files use environment variables to communicate data and preferences to child processes. 
+They can also be used to store temporary values for reference later in a shell script.
+
+## How these environment variables solve our needs?
+
+
+Environment variables are defined on a system-wide level. ...
+By managing these variables in one place, on the system, you don't have to worry about where to put them in your code. 
+This way, you can keep your code and (possibly sensitive) data separated.
+
+## 
 Lets see how to set and list the environment variables in linux
 
 In Linux based systems environment variables are a set of dynamic named values, 
